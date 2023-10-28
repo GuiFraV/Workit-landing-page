@@ -1,6 +1,14 @@
+import Herobanner from "./components/Herobanner/Herobanner"
+import Section from "./components/Section/Section"
+import Testimonial from "./components/Testimonial/Testimonial"
+
 function App() {
   return (
-    <h1>Workit landing</h1>
+    <div>
+      <Herobanner/>
+      <Section />
+      <Testimonial />
+    </div>
   )
 }
 
